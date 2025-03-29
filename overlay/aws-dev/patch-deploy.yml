@@ -8,3 +8,8 @@ metadata:
     istory.io/infra: aws
 spec:
   replicas: 1
+  template:
+    spec:
+      containers:
+        - name: dangtong76/istory
+          newTag: latest
