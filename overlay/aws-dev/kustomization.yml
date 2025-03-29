@@ -22,3 +22,6 @@ images:
 - name: istory
   newName: jiseongtak/istory
   newTag: "14"
+- name: jiseongtak/istory
+  newName: jiseongtak/istory
+  newTag: "15"
