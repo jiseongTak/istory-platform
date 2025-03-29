@@ -14,13 +14,6 @@ patches:
     kind: Deployment
     name: istory-app-deploy
 
-images:
-- name: dangtong76/istory
-  newTag: latest
-- name: istory
-  newName: jiseongtak/istory
-  newTag: "12"
-
 generatorOptions:
   disableNameSuffixHash: true
 apiVersion: kustomize.config.k8s.io/v1beta1
